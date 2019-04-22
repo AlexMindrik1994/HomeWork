@@ -1,0 +1,74 @@
+li {
+	list-style-type: none;
+
+}
+
+h1, h3, b, p {
+	color: yellow;
+}
+
+div h4,h2 {
+	color: orange;
+}
+
+li {
+	border: 10px solid brown;
+	border-radius: 40px;
+
+	border-top:  solid brown;
+	border-right: 5px solid brown;
+	border-bottom: 5px solid brown;
+	border-left: 3px solid brown;
+	border-top-left-radius: 0px;
+
+
+}
+
+
+li {
+	padding: 10px;
+	padding-top: 10px; 
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+li {
+	width: 300px;
+}
+
+ tr h4{
+		 
+	padding-right: 10px;
+	
+	padding-left: 50px;
+	
+}
+div a {
+	text-decoration: none;
+}
+div label{
+	color: orange;
+}
+i {
+	color: orange;
+}
+
+fieldset {
+   border: none;
+}
+
+#label{
+	padding-right: 9px;
+}
+
+fieldset  label, legend, option {
+	color: orange;
+}
+
+ div li {
+	list-style-type: none;
+	display: inline-block;
+	width: 250px;
+	
+}
