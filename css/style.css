@@ -3,11 +3,11 @@ li {
 
 }
 
-h1, h2, b, p {
+h1, h3, b, p {
 	color: yellow;
 }
 
-div h4 {
+div h4,h2 {
 	color: orange;
 }
 
@@ -15,12 +15,12 @@ li {
 	border: 10px solid brown;
 	border-radius: 40px;
 
-	border-top: 10px solid brown;
+	border-top:  solid brown;
 	border-right: 5px solid brown;
 	border-bottom: 5px solid brown;
 	border-left: 3px solid brown;
-	width: 300px
 	border-top-left-radius: 0px;
+
 
 }
 
@@ -64,4 +64,11 @@ fieldset {
 
 fieldset  label, legend, option {
 	color: orange;
+}
+
+ div li {
+	list-style-type: none;
+	display: inline-block;
+	width: 250px;
+	
 }
