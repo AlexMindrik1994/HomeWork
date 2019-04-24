@@ -1,0 +1,109 @@
+li {
+	list-style-type: none;
+
+}
+
+h1, h3, b, p {
+	color: yellow;
+}
+
+div h4,h2 {
+	color: orange;
+}
+
+li {
+	border: 10px solid brown;
+	border-radius: 40px;
+	border-top:  solid brown;
+	border-right: 5px solid brown;
+	border-bottom: 5px solid brown;
+	border-left: 3px solid brown;
+	border-top-left-radius: 0px;
+
+
+}
+
+
+li {
+	padding: 10px;
+	padding-top: 10px; 
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+li {
+	width: 300px;
+}
+
+ tr h4{
+		 
+	padding-right: 10px;
+	
+	padding-left: 50px;
+	
+}
+div a {
+	text-decoration: none;
+}
+div label{
+	color: orange;
+}
+i {
+	color: orange;
+}
+
+fieldset {
+   border: none;
+}
+
+#label{
+	padding-right: 9px;
+}
+
+fieldset  label, legend, option {
+	color: orange;
+}
+
+ div li {
+	list-style-type: none;
+	display: inline-block;
+	width: 250px;
+	
+}
+	  
+
+
+#author {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+
+
+body {
+	background-image:  url(https://avatars.mds.yandex.net/get-pdb/1051324/773aa5cf-9073-4987-ba33-647c0014eabb/s1200?webp=false); 
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+div #image {
+	float: left;
+	margin-right:  10px;
+}
