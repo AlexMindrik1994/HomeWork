@@ -95,8 +95,15 @@ fieldset  label, legend, option {
   transition: .3s;
 }
 
+
+
+body {
+	background-image:  url(https://avatars.mds.yandex.net/get-pdb/1051324/773aa5cf-9073-4987-ba33-647c0014eabb/s1200?webp=false); 
+	background-repeat: repeat;
+	background-size: cover;
 }
 
-#image {
-	position:   center;
+div #image {
+	float: left;
+	margin-right:  10px;
 }
