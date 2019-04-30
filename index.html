@@ -6,52 +6,80 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>	
 	<body id="image">
-		<div>
-			<ul>
-				<li id="menu"><a href="index.html"><h3>Главная</h3></a></li>
-				<li id="menu"><a href="page1.html"><h3>Астрономические события</h3></a></li>
-				<li id="menu"><a href="page2.html"><h3>Астрономические термины</h3></a></li>
-				<li id="menu"><a href="article.html"><h3>Статьи</h3></a></li>
-				<li id="menu"> <a href="author.html"><h3>Авторизация</h3></a> </li>
-				<li id="menu"> <a href="registr.html"><h3>Регистрация</h3></a> </li>
-				<li id="menu"> <a href="test.html"><h3>Тестирование</h3></a> </li>
-			</ul>
+		<div class="row">
+			<div class="container">	
+				<nav class="col-12">
+					<ul class="menu">
+						<li id=""><a href="index.html"><h3>Главная</h3></a></li>
+						<li class=""><h3> Астрономия </h3>
+							<ul class="sum-menu">
+								<li id="sum-menu"><a href="page1.html"><h3>Астрономические события</h3></a></li>
+								<li id="sum-menu"><a href="page2.html"><h3>Астрономические термины</h3></a></li>
+								<li id="menu"> <a href="test.html"><h3>Тестирование</h3></a> </li>
+								<li id="menu"> <a href="gallery.html"><h3>Галлерея</h3></a> </li>
+							</ul>
+						</li>	
+				
+						<li id="menu"><a href="article.html"><h3>Статьи</h3></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+<!--
+	<div id="modal" class="modal">
+			<form action="#">
+				<div>
+					<input type="text" name="" placeholder="text">
+					<input type="email" name=""placeholder="email">
+				</div>
+				<input type="submit" value="Отправить" name="">
+			</form>
+			<a href="#">Скрыть модальное окно</a>
+		</div>
+		<p>
+			<a href="#hover"></a>
+		</p>
+		<p>
+			<a href="#modal">Открыть модальное окно</a>
+		</p>
+-->
+		<div class="row">
+			<div class="container">
+				<div class="col-12">
+					<ul id="menu" class="">
+						<li id=""> <a href="author.html"><h4>Авторизация</h3></a> </li>
+						<li id=""> <a href="registr.html"><h4>Регистрация</h3></a> </li>
+					</ul>
+				</div>
+			</div>			
 		</div>
 
-		
-		<div>	
+
+
+
+
+		<div>
+		<hr>	
 			<h1 align="center">САЙТ ПОСВЯЩЕН АСТРОНОМИИ И АСТРОНОМИЧЕСКИМ ЯВЛЕНИЯМ</h1>
 
 		</div>
 
-		<div>
-			<table>
-				<th>
-					<tr>
-						<td>
-							<h4 align="center">Черная дыра</h4>
-						</td>
-						<td>
-							<h4 align="center">Суперлуние</h4>
-						</td>
-						<td>
-							<h4 align="center">Метеорный поток</h4>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p><a href="page1.html"><img src="image/image2.jpg"height="250" width="400" title="Нажмите на картинку"></a></p>
-						</td>
-						<td>
-							<p><a href="page1.1.html"><img src="image/image3.jpg" height="250" width="400" title="Нажмите на картинку"><br></a></p>
-						</td>
+		<div id="image" class="image">
+		
+						<div class="image-1"><h4 align="center">Черная дыра</h4>
+							<a href="page1.html"><img src="image/image2.jpg"height="250" width="400" title="Нажмите на картинку"></a>
+						</div>
 						
-						<td>
-							<p><a href="page1.2.html"><img src="image/image5.jpg"height="250" width="400" title="Нажмите на картинку"></a></p>
-						</td>
-					</tr>	
-				</th>
-			</table>
+						<div class="image-2"><h4 align="center">Суперлуние</h4>
+							<a href="page1.1.html"><img src="image/image3.jpg" height="250" width="400" title="Нажмите на картинку"></a>
+						</div>
+						<div class="image-3"><h4 align="center">Метеорный поток</h4>
+							<a href="page1.2.html"><img src="image/image5.jpg"height="250" width="400" title="Нажмите на картинку"></a>
+						</div>
+					
+						
+					
 		</div>
 
 	</body>	
