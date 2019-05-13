@@ -100,6 +100,7 @@ li:hover > .sum-menu {
 	transition: opacity 400ms ease-in;
 	display: none;
 	pointer-events: none;
+	max-width: 100%;
 }
 
 
@@ -114,7 +115,7 @@ li:hover > .sum-menu {
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
-	background: #fff;
+	background:#182a5a;
 	background: -moz-linear-gradient(#fff, #999);
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
@@ -150,15 +151,16 @@ li {
 
 }
 
-h1, h3, b, p {
+h1, h2, h3, b, p, .footer {
 	color: yellow;
 }
+
 
 div ul h4 {
 	color: yellow;
 	padding-right: 20px;
 }
-div h4,h2 {
+div h4,p {
 	color: orange;
 }
 
@@ -186,13 +188,15 @@ li {
 	width: 300px;
 }
 */
- tr h4{
+ /*tr h4{
 		 
 	padding-right: 10px;
-	
 	padding-left: 50px;
 	
-}
+}*/
+
+
+
 div a {
 	text-decoration: none;
 }
@@ -215,12 +219,31 @@ fieldset  label, legend, option{
 	color: orange;
 }
 
- 
+div p {
+	margin-left: 20px;
+	margin-right: 20px;
+} 
 
 	
 
+footer p {
+	border: 10px solid #182a5a;
+	background-color: #182a5a;
+}
+ .news {
+	display: grid;
+	margin: 0;
+}
 
+.news h4 {
+	margin: 5px;
+}
 
+.word {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 /*	  
 .fixed {
 	position: fixed; /* Фиксированный элемент относительно экрана браузера
@@ -260,52 +283,69 @@ body {
 	background-size: cover;
 }
 
-div #image {
+div #image,#image_1 {
 	float: left;
 	margin-right:  10px;
 }
-
+#image_1 {
+	padding-left: 20px;
+}
  .image{
 	display: inline-flex;
 	
-}
-.image {
 	padding-left: 40px;
-	width: 100%;
 }
+#bottom {
+	padding-bottom: 210px;
+
+}
+.lyrid{
+	padding-bottom: 250px;
+}
+
+a img {
+	max-width: 100%;
+}
+
 .image-1, .image-2 {
 	padding-right: 20px;
 	
 }
 
-/*-----------------------------------------Галлерея-----------------------------------------------------------------------*/
- 
- .item{
-  
-	/*background-color: #28314E;
-	border: 1px solid #212941;
-	border-radius: 5px;
-	padding: 8px 15px;*/
-	color: #ffffff;
-	font-size: 18px;
-	font-family: roboto;
-}
-
-
+/*-----------------------------------------------------------------------------GALLERY---------------------------------------------------------------------------------*/
 .container {
   display: grid;
-  grid-template-columns:100px 100px 100px;
-  width: 100%;
- 
+  grid-template-columns:repeat(auto, minmax(100px, 1fr));
   
-    grid-gap: 20px;
+  grid-gap: 20px;
+
 }
 
 
+#image{
+	width: 100%;
+}
+
+#float {
+	width: 30%;
+	height: 30%;
+	float: left;
+} 
+#float1 {
+	float: right;
+} 
 
 
 
+.item {
 
+  max-height: 330px;
+}
+
+
+div .card {
+  width: auto;
+}
 
 
 #image1 {
@@ -313,6 +353,7 @@ div #image {
   grid-column-start: 1 ;
   grid-column-end: 5;
   grid-row: 1 /20;
+
 }
 #image2 {
   grid-column-start:5;
@@ -339,71 +380,44 @@ div #image {
   grid-column-end:13;
   grid-row: 20/40;
 }
-
-
-div .image-1 {
-	width: auto;
-	height: calc(90v-3*5px);
-  max-height: 314px;
-}
-
-.hover:target{
-	display: none;
-}
-
-.modal {
-	display: none;
-}
-
-.modal:target{
-	display: block;
-	position: absolute;
-	top:200px;
-	right:200px; 
-	bottom: 200px;
-	left:200px;
-	background:gray;
-	
-}
-
-
-/*-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------GALLERY---------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
-  .image {
+  .image, .menu {
   	display: block;
   }
 
-  .modalDialog > div {
+ .modalDialog > div {
+  	max-width: 50%;
+  }
+.container{
+    display: block;
+    
+   }
+  
+div .card{
+    
+  max-height: 400px;
+  float: left;
+}
+
+}
+
+
+    
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.menu {
+display: block;
+}
+    
+.item, img {
+	height: 50%;
+}	
+ .modalDialog > div {
   	max-width: 50%;
   }
 }
 
 
-
-
-    img{
-        
-    }
-    
-   
-} 
-
-@media screen and (min-width: 481px) and (max-width: 768px){
-
-
-    }
-
-    .slider img {
-        height: 50vh;
-    }
-}
-
 @media screen and (min-width: 769px) and (max-width: 960px) {
-
-    }
-	
-
-	
- 
-}
